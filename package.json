@@ -1,0 +1,28 @@
+{
+  "name": "game-module-admin-console",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "api": "node api/server.mjs",
+    "dev:full": "concurrently \"npm run api\" \"npm run dev\"",
+    "build": "tsc -b && vite build",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "concurrently": "latest"
+  }
+}

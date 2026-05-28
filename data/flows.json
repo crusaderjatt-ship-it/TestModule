@@ -1,0 +1,40 @@
+[
+  {
+    "id": "flow-default",
+    "name": "Locked Default Fallback Flow",
+    "status": "published",
+    "lockedDefault": true,
+    "currentVersion": 1,
+    "screenOrder": ["entry-paywall", "home", "game-info", "confirmation"],
+    "visibility": { "entry-paywall": true, "home": true, "game-info": true, "confirmation": true },
+    "triggers": ["first screen", "bottom button"],
+    "entryFullScreenPaywall": true,
+    "ctaDestination": "confirmation",
+    "confirmation": { "enabled": true, "placements": ["after paywall CTA", "bottom button", "tile click"] },
+    "home": { "categories": true, "arrows": true, "featuredRows": true, "layout": "grid" },
+    "bottomCtaBehavior": "confirmation screen",
+    "tileClickBehavior": "game info page",
+    "gameInfo": { "enabled": true, "description": true, "trailer": true, "screenshots": true },
+    "perGamePaywalls": { "galaxy-karts": "paywall-summer-v3" },
+    "assignments": { "builds": [], "brands": [], "locations": [], "trafficSplit": 100 }
+  },
+  {
+    "id": "flow-summer-arcade",
+    "name": "Summer Arcade Fast Purchase",
+    "status": "published",
+    "lockedDefault": false,
+    "currentVersion": 4,
+    "screenOrder": ["home", "entry-paywall", "confirmation", "game-info"],
+    "visibility": { "entry-paywall": true, "home": true, "game-info": true, "confirmation": true },
+    "triggers": ["brand Highline", "evening promo"],
+    "entryFullScreenPaywall": false,
+    "ctaDestination": "purchase",
+    "confirmation": { "enabled": true, "placements": ["after paywall CTA", "tile click"] },
+    "home": { "categories": true, "arrows": true, "featuredRows": true, "layout": "carousel" },
+    "bottomCtaBehavior": "full paywall",
+    "tileClickBehavior": "game-specific paywall",
+    "gameInfo": { "enabled": true, "description": true, "trailer": true, "screenshots": true },
+    "perGamePaywalls": { "neon-darts": "paywall-summer-v3", "pixel-putt": "paywall-summer-v3" },
+    "assignments": { "builds": ["menu-2026.05"], "brands": ["Highline"], "locations": ["Austin Arcade"], "schedule": { "startsAt": "2026-05-01T00:00:00.000Z", "endsAt": "2026-08-31T23:59:59.000Z" }, "trafficSplit": 85 }
+  }
+]
