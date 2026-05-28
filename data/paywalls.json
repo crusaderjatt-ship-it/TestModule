@@ -1,0 +1,45 @@
+[
+  {
+    "id": "paywall-summer-v3",
+    "name": "HLN Summer Promo v3",
+    "status": "published",
+    "currentVersion": 3,
+    "createdAt": "2026-05-01T10:00:00.000Z",
+    "updatedAt": "2026-05-24T18:30:00.000Z",
+    "assignments": { "builds": ["menu-2026.05"], "brands": ["Highline"], "locations": ["Austin Arcade"], "schedule": { "startsAt": "2026-05-01T00:00:00.000Z", "endsAt": "2026-08-31T23:59:59.000Z" }, "trafficSplit": 70 },
+    "metrics": { "conversionRate": 18.4, "engagement": 63, "revenuePerSession": 1.74 },
+    "layout": {
+      "backgroundRef": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+      "assetType": "JPG",
+      "scaling": "cover",
+      "zoom": 100,
+      "x": 0,
+      "y": 0,
+      "overlayOpacity": 44,
+      "blur": 1,
+      "gradient": "dark",
+      "headline": "Unlock Unlimited Play",
+      "subtext": "Premium game menu access for every guest at this table.",
+      "fontFamily": "Inter",
+      "headlineSize": 40,
+      "bodySize": 16,
+      "textShadow": true,
+      "glow": true,
+      "priceLabel": "Today from {price}",
+      "closeButton": true,
+      "bottomPlayButton": true,
+      "cta": { "text": "Start Playing", "fontFamily": "Inter", "size": 16, "weight": 800, "shape": "pill", "width": 230, "height": 54, "x": 50, "y": 73, "fill": "#ffcc33", "gradient": "linear-gradient(135deg,#ffef7a,#ff8a00)", "border": "1px solid rgba(255,255,255,.45)", "textColor": "#211600", "states": { "default": { "fill": "#ffcc33", "textColor": "#211600", "border": "#fff2", "shadow": "0 16px 40px #ff9f1c55" }, "pressed": { "fill": "#ff9f1c", "textColor": "#120b00", "border": "#fff5", "shadow": "inset 0 4px 10px #0003" }, "disabled": { "fill": "#777", "textColor": "#ddd", "border": "#999", "shadow": "none" }, "loading": { "fill": "#7ce7ff", "textColor": "#06131a", "border": "#e8fbff", "shadow": "0 0 20px #7ce7ff88" } } },
+      "bottomCta": { "text": "Play Games", "fontFamily": "Inter", "size": 14, "weight": 700, "shape": "pill", "width": 180, "height": 44, "x": 50, "y": 92, "fill": "#151c38", "gradient": "linear-gradient(135deg,#27346d,#11172f)", "border": "1px solid #7ce7ff55", "textColor": "#ffffff", "states": { "default": { "fill": "#151c38", "textColor": "#fff", "border": "#7ce7ff55", "shadow": "0 12px 30px #0005" }, "pressed": { "fill": "#0d1228", "textColor": "#fff", "border": "#fff5", "shadow": "inset 0 3px 8px #0008" }, "disabled": { "fill": "#555", "textColor": "#ccc", "border": "#777", "shadow": "none" }, "loading": { "fill": "#7ce7ff", "textColor": "#06131a", "border": "#e8fbff", "shadow": "0 0 20px #7ce7ff88" } } },
+      "confirmationCta": { "text": "Confirm Purchase", "fontFamily": "Inter", "size": 16, "weight": 800, "shape": "pill", "width": 240, "height": 54, "x": 50, "y": 76, "fill": "#7cf57c", "gradient": "linear-gradient(135deg,#b9ff6a,#24d26c)", "border": "1px solid #fff8", "textColor": "#041b0a", "states": { "default": { "fill": "#7cf57c", "textColor": "#041b0a", "border": "#fff8", "shadow": "0 12px 35px #24d26c77" }, "pressed": { "fill": "#24d26c", "textColor": "#041b0a", "border": "#fff", "shadow": "inset 0 3px 10px #0003" }, "disabled": { "fill": "#777", "textColor": "#ddd", "border": "#999", "shadow": "none" }, "loading": { "fill": "#7ce7ff", "textColor": "#06131a", "border": "#e8fbff", "shadow": "0 0 20px #7ce7ff88" } } }
+    },
+    "confirmation": {
+      "backgroundRef": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+      "assetType": "JPG", "scaling": "cover", "zoom": 100, "x": 0, "y": 0, "overlayOpacity": 38, "blur": 0, "gradient": "brand", "headline": "Ready Player?", "subtext": "Confirm and lock the table price before it is sent to POS.", "fontFamily": "Inter", "headlineSize": 36, "bodySize": 15, "textShadow": true, "glow": true, "priceLabel": "Confirm {price}", "closeButton": true, "bottomPlayButton": false,
+      "cta": { "text": "Confirm Purchase", "fontFamily": "Inter", "size": 16, "weight": 800, "shape": "pill", "width": 240, "height": 54, "x": 50, "y": 76, "fill": "#7cf57c", "gradient": "linear-gradient(135deg,#b9ff6a,#24d26c)", "border": "1px solid #fff8", "textColor": "#041b0a", "states": { "default": { "fill": "#7cf57c", "textColor": "#041b0a", "border": "#fff8", "shadow": "0 12px 35px #24d26c77" }, "pressed": { "fill": "#24d26c", "textColor": "#041b0a", "border": "#fff", "shadow": "inset 0 3px 10px #0003" }, "disabled": { "fill": "#777", "textColor": "#ddd", "border": "#999", "shadow": "none" }, "loading": { "fill": "#7ce7ff", "textColor": "#06131a", "border": "#e8fbff", "shadow": "0 0 20px #7ce7ff88" } } },
+      "bottomCta": { "text": "Cancel", "fontFamily": "Inter", "size": 14, "weight": 700, "shape": "pill", "width": 170, "height": 42, "x": 50, "y": 88, "fill": "#151c38", "gradient": "linear-gradient(135deg,#27346d,#11172f)", "border": "1px solid #fff3", "textColor": "#fff", "states": { "default": { "fill": "#151c38", "textColor": "#fff", "border": "#fff3", "shadow": "0 10px 24px #0005" }, "pressed": { "fill": "#0d1228", "textColor": "#fff", "border": "#fff5", "shadow": "inset 0 3px 8px #0008" }, "disabled": { "fill": "#555", "textColor": "#ccc", "border": "#777", "shadow": "none" }, "loading": { "fill": "#7ce7ff", "textColor": "#06131a", "border": "#e8fbff", "shadow": "0 0 20px #7ce7ff88" } } },
+      "confirmationCta": { "text": "Confirm Purchase", "fontFamily": "Inter", "size": 16, "weight": 800, "shape": "pill", "width": 240, "height": 54, "x": 50, "y": 76, "fill": "#7cf57c", "gradient": "linear-gradient(135deg,#b9ff6a,#24d26c)", "border": "1px solid #fff8", "textColor": "#041b0a", "states": { "default": { "fill": "#7cf57c", "textColor": "#041b0a", "border": "#fff8", "shadow": "0 12px 35px #24d26c77" }, "pressed": { "fill": "#24d26c", "textColor": "#041b0a", "border": "#fff", "shadow": "inset 0 3px 10px #0003" }, "disabled": { "fill": "#777", "textColor": "#ddd", "border": "#999", "shadow": "none" }, "loading": { "fill": "#7ce7ff", "textColor": "#06131a", "border": "#e8fbff", "shadow": "0 0 20px #7ce7ff88" } } },
+      "confetti": true, "transition": "arcade", "autoCloseSeconds": 6, "secondaryCancel": true
+    },
+    "versions": []
+  }
+]
